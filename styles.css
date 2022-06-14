@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 2rem;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(180, 176, 176);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-decoration: wavy;
+    font-size: 2rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.start {
+    width: 8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.number {
+    width: 5rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor:  pointer;
+}
+
+.guessing {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.guess {
+    width: 10em;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.check {
+    width: 8rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.side {
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: oblique
+}
